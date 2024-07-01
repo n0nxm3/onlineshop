@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p,a,ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* ***************************************************************** */
+/* HEADER START  */
+
+.blue{
+    background: #4cb1ca;
+    padding: 20px 0;
+
+}
+
+.navbar-brand{
+    font-size: 36px;
+    color: #656565;
+
+}
+
+.nav-link{
+    font-size: 14px;
+    color: #656565;
+}
+
+.section{
+    margin: 0;
+    padding: 0;
+}
+
+.icon{
+    width: 25px;
+    height: 24px;
+    border-radius: 100%;
+    background: #7db122;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.border{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.price{
+    color: #7db122;
+}
+
+.box{
+    box-shadow: 0 0 15px 0 #cccccc;
+    margin-top: 82px;
+}
+
+.carousel-indicators [data-bs-target]{
+    height: 11px;
+    width: 11px;
+    border-top: 0;
+    border-bottom: 0;
+    background: #7db122;
+    border-radius: 100%;
+    box-shadow: #eeeeee;
+    margin-bottom: -28px;
+    
+}
+
+.newsleters{
+    border-top: 4px solid #4cb1ca;
+    box-shadow:  0 0 15px #e2e2e2;
+    
+}
+
+.newsleters h3{
+    font-size: 24px;
+    color: #635f57;
+    padding-top: 26px;
+    text-transform: uppercase;  
+}
+
+.newsleters p{
+    font-size: 14px;
+    color: #635f57;
+    
+}
+
+input{
+    width: 100%;
+    border: 1px solid #e2e2e2;
+    
+    
+}
+
+form button{
+    margin: auto;
+    margin-top: 17px;
+    display: flex;
+    width: 111px;
+    height: 44px;
+    background: #7db122;
+    color: white;
+    justify-content: center;
+    align-items: center; 
+    border: none;
+}
+
+.carousel slide{
+    border-top: 4px solid #4cb1ca;
+    
+}
+
